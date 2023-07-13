@@ -15,3 +15,5 @@ $ yarn add ts-node --dev
 ##$ npx tsc --init
 ```
 
+- [X] BubbleSort
+
