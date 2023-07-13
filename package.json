@@ -1,0 +1,23 @@
+{
+  "name": "ts-algorithms",
+  "version": "1.0.0",
+  "description": "TypeScript Algorithms",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "tsc": "tsc",
+    "build": "tsc --outDir build",
+    "build:watch": "tsc -w --outDir build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}
