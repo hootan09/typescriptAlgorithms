@@ -12,8 +12,9 @@ $ npm init -y
 $ yarn add typescript
 $ yarn add tsc --dev
 $ yarn add ts-node --dev
-##$ npx tsc --init
+#$ npx tsc --init
 ```
 
 - [X] BubbleSort
+- [X] SelectSort
 
