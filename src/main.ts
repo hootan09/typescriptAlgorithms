@@ -1,5 +1,8 @@
-import { BubbleSort } from "./dataStructures";
-import SelectSort from "./dataStructures/SelectSort";
+import { 
+    BubbleSort,
+    SelectSort,
+    InsertSort,
+} from "./dataStructures";
 
 console.log("---------- TypeScript Algorithms ----------");
 
@@ -16,7 +19,16 @@ console.log("---------- TypeScript Algorithms ----------");
 /**
  * Select Sort
  */
+// let unSortedArray: Array<number> = [6,5,4,3,2,1,7,8,0,9]
+// console.log('UnSorted: ', unSortedArray)
+// let sorted:Array<number> = SelectSort.sort(unSortedArray);
+// console.log(' Sorted: ', sorted);
+
+//---------------------------------------------------------------
+/**
+ * Insert Sort
+ */
 let unSortedArray: Array<number> = [6,5,4,3,2,1,7,8,0,9]
 console.log('UnSorted: ', unSortedArray)
-let sorted:Array<number> = SelectSort.sort(unSortedArray);
+let sorted:Array<number> = InsertSort.sort(unSortedArray);
 console.log(' Sorted: ', sorted);

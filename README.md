@@ -17,4 +17,4 @@ $ yarn add ts-node --dev
 
 - [X] BubbleSort
 - [X] SelectSort
-
+- [X] InsertSort
